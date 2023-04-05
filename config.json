@@ -1,0 +1,29 @@
+{
+    "name": {
+		    "en": "ROBOTONIO",
+        "gr": "ROBOTONIO"
+    },
+    "description": {        
+        "en": "Robotics with ROBOTONIO",
+		    "gr": "Ρομποτική με το ROBOTONIO"
+    },
+    "author": "ROBOTONIO",
+    "email": "kasmiris@robotonio.gr",
+    "license": "MIT",
+    "isBoard": false,
+    "id": "robotonio1",
+    "platform": ["win", "mac", "web"],
+    "asset": {
+        "mPython": {
+            "dir": "mPython/",
+            "version": "0.0.1",
+            "board": ["microbit"],
+            "main": "main.ts",
+            "files": ["note":" this field has been auto-generated, no need to fill in "
+                "_locales/zh-cn.json",
+                "_images/icon.svg",
+                "libraries/test.py"
+            ]
+        }
+    }
+}
